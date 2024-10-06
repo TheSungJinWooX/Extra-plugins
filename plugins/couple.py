@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw
 import requests
 
 from utils import get_image, get_couple, save_couple
-from YukkiMusic import app
+from DnsXMusic import app
 from TheApi import api
 
 # get current date in GMT+5:30 timezone

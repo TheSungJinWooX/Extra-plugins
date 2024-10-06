@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatAction
 from TheApi import api
 
-from YukkiMusic import app
+from DnsXMusic import app
 from config import BANNED_USERS
 
 

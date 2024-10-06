@@ -1,7 +1,7 @@
 import requests
 from pyrogram import filters
 
-from YukkiMusic import app
+from DnsXMusic import app
 from SafoneAPI import SafoneAPI
 
 

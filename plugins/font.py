@@ -1,4 +1,4 @@
-from YukkiMusic import app
+from DnsXMusic import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import filters
 

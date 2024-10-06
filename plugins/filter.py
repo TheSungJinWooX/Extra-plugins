@@ -6,17 +6,17 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
 )
 
-from YukkiMusic import app
+from DnsXMusic import app
 from utils.error import capture_err
 from utils.permissions import adminsOnly, member_permissions
-from YukkiMusic.utils.keyboard import ikb
+from DnsXMusic.utils.keyboard import ikb
 from .notes import extract_urls
-from YukkiMusic.utils.functions import (
+from DnsXMusic.utils.functions import (
     check_format,
     extract_text_and_keyb,
     get_data_and_name,
 )
-from YukkiMusic.utils.database import (
+from DnsXMusic.utils.database import (
     deleteall_filters,
     get_filter,
     get_filters_names,

@@ -14,13 +14,13 @@ from pyrogram.types import (
 from string import ascii_lowercase
 from typing import Dict, Union
 
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.core.mongo import mongodb
+from DnsXMusic import app
+from DnsXMusic.misc import SUDOERS
+from DnsXMusic.core.mongo import mongodb
 from utils.error import capture_err
-from YukkiMusic.utils.keyboard import ikb
-from YukkiMusic.utils.database import save_filter
-from YukkiMusic.utils.functions import (
+from DnsXMusic.utils.keyboard import ikb
+from DnsXMusic.utils.database import save_filter
+from DnsXMusic.utils.functions import (
     extract_user,
     extract_user_and_reason,
     time_converter,

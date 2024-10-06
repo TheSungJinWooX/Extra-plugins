@@ -1,9 +1,9 @@
 #
 # Copyright (C) 2024 by TheTeamVivek@Github, < https://github.com/TheTeamVivek >.
 #
-# This file is part of < https://github.com/TheTeamVivek/YukkiMusic > project,
+# This file is part of < https://github.com/TheTeamVivek/DnsXMusic > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TheTeamVivek/YukkiMusic/blob/master/LICENSE >
+# Please see < https://github.com/TheTeamVivek/DnsXMusic/blob/master/LICENSE >
 #
 # All rights reserved.
 #
@@ -22,17 +22,17 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
 from strings import get_string
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import (
+from DnsXMusic import app
+from DnsXMusic.misc import SUDOERS
+from DnsXMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
     get_playmode,
     get_playtype,
 )
-from YukkiMusic.utils.logger import play_logs
-from YukkiMusic.utils.stream.stream import stream
+from DnsXMusic.utils.logger import play_logs
+from DnsXMusic.utils.stream.stream import stream
 
 RADIO_STATION = {
     "Air Bilaspur": "http://air.pc.cdn.bitgravity.com/air/live/pbaudio110/playlist.m3u8",

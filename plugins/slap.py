@@ -1,4 +1,4 @@
-from YukkiMusic import app
+from DnsXMusic import app
 from pyrogram import filters
 import nekos
 

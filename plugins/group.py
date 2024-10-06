@@ -1,6 +1,6 @@
 from pyrogram import enums, filters
 
-from YukkiMusic import app
+from DnsXMusic import app
 from utils.permissions import adminsOnly
 
 

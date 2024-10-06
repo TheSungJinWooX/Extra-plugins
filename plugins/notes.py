@@ -6,8 +6,8 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
-from YukkiMusic import app
-from YukkiMusic.utils.database import (
+from DnsXMusic import app
+from DnsXMusic.utils.database import (
     delete_note,
     deleteall_notes,
     get_note,
@@ -15,12 +15,12 @@ from YukkiMusic.utils.database import (
     save_note,
 )
 from utils.error import capture_err
-from YukkiMusic.utils.functions import (
+from DnsXMusic.utils.functions import (
     check_format,
     extract_text_and_keyb,
     get_data_and_name,
 )
-from YukkiMusic.utils.keyboard import ikb
+from DnsXMusic.utils.keyboard import ikb
 from utils.permissions import adminsOnly, member_permissions
 
 
