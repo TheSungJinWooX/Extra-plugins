@@ -5,7 +5,6 @@ httpx[http2]
 pyfiglet
 lexica-api
 MukeshAPI
-TheApix==1.2.5
 SafoneAPI
 nekos.py
 telegraph
