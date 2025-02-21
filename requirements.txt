@@ -9,5 +9,4 @@ MukeshAPI
 SafoneAPI
 nekos.py
 telegraph
-uuid
 git+https://github.com/Vivekkumar-IN/TheApi@main
